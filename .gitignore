@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Downloaded ONNX models (users download these separately)
+models/*.tar
+models/*_infer/
+models/*_onnx/
+
+# Generated outputs
+output_vis.png
+*.jpg
+*.jpeg
+!assets/*
