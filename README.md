@@ -15,7 +15,9 @@ This repo gives you a **single-file, drop-in module** that matches PaddleX outpu
 
 | | PaddleX (Paddle) | PaddleX (ORT) | **This repo (Pure ORT)** |
 |---|:---:|:---:|:---:|
-| Dependencies | PaddlePaddle + PaddleX | PaddlePaddle + PaddleX | onnxruntime + opencv + numpy + pyclipper |
+| Inference engine | PaddleInference | ONNX Runtime | ONNX Runtime |
+| Requires PaddlePaddle | ✓ Yes (~2 GB) | ✓ Yes (~2 GB) | ✗ No |
+| Package footprint | ~2 GB | ~2 GB | ~200 MB |
 | Avg latency (M4) | 877 ms | 291 ms | **282 ms** |
 | vs Paddle native | baseline | 3.0× faster | **3.1× faster** |
 | Accuracy vs PaddleX | — | bit-exact | **bit-exact** |

@@ -15,7 +15,9 @@ PaddleX 功能强大——但它需要 **2 GB+ 的依赖链**（PaddlePaddle + �
 
 | | PaddleX (Paddle) | PaddleX (ORT) | **本项目 (纯 ORT)** |
 |---|:---:|:---:|:---:|
-| 依赖 | PaddlePaddle + PaddleX | PaddlePaddle + PaddleX | onnxruntime + opencv + numpy + pyclipper |
+| 推理引擎 | PaddleInference | ONNX Runtime | ONNX Runtime |
+| 依赖 PaddlePaddle | ✓ 是 (~2 GB) | ✓ 是 (~2 GB) | ✗ 否 |
+| 安装体积 | ~2 GB | ~2 GB | ~200 MB |
 | 平均耗时 (M4) | 877 ms | 291 ms | **282 ms** |
 | vs Paddle 原生 | 基准 | 快 3.0× | **快 3.1×** |
 | 精度 vs PaddleX | — | bit-exact | **bit-exact** |
