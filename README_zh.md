@@ -216,7 +216,8 @@ ppocrv6_onnx/
 │   └── rec_char_dict.txt    # 7180 字符字典（已包含）
 ├── assets/                  # 示例图片
 ├── test_images/             # 多语言测试图片集
-└── scripts/                 # 验证与开发工具
+├── scripts/                 # 验证与开发工具
+└── docs/                    # 方法论与指南
 ```
 
 ---

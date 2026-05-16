@@ -216,7 +216,8 @@ ppocrv6_onnx/
 │   └── rec_char_dict.txt    # 7180-character dictionary (included)
 ├── assets/                  # Demo image
 ├── test_images/             # Multi-lingual test suite
-└── scripts/                 # Verification & dev tools
+├── scripts/                 # Verification & dev tools
+└── docs/                    # Methodology & guides
 ```
 
 ---
